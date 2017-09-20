@@ -10,6 +10,8 @@ body {
 header {
   height: 69px;
   border-bottom: 1px solid seashell;
+  background-color: black;
+  align-items: center;
   position: fixed;
   display: flex;
   flex-wrap: wrap;
@@ -22,17 +24,59 @@ header img {
   padding-left: 10px;
 }
 
-nav span {
-  display: inline-block;
-  padding: 20px 10px;
-  text-decoration: underline;
-}
-
 nav {
   text-align: right;
   flex-grow: 1;
 }
 
+nav span {
+  display: inline-block;
+  padding: 20px 10px 20px 10px;
+  text-decoration: underline;
+  text-decoration-color: initial;
+  text-decoration-style: initial;
+}
+
 a {
   color: seashell;
+}
+
+div {
+  display: block;
+}
+
+h2  {
+  font-weight: bold;
+  font-size: 1.5em;
+  display: block;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.flexheader {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  margin: auto;
+  width: 1200px;
+}
+
+#mission {
+  padding-top: 70px;
+  height: 700px;
+  background-image: url(/Users/christmas/Documents/Projects/teacozy/resources/images/img-mission-background.jpg);
+}
+
+#mission .content {
+  margin-top: auto;
+  width: 100%;
+  background-color: black;
 }
