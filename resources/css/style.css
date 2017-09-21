@@ -17,6 +17,8 @@ header {
   flex-wrap: wrap;
   width: 100%;
   z-index: 1;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 header img {
@@ -51,6 +53,10 @@ h2  {
   display: block;
 }
 
+h4 {
+  display: block;
+}
+
 h2, h3, h4 {
   margin: 0;
   padding: 10px;
@@ -69,6 +75,16 @@ h2, h3, h4 {
   width: 1200px;
 }
 
+.content {
+  vertical-align: middle;
+}
+
+.featuredtea {
+  width: 1000px;
+
+
+}
+
 #mission {
   padding-top: 70px;
   height: 700px;
@@ -76,7 +92,7 @@ h2, h3, h4 {
 }
 
 #mission .content {
-  margin-top: auto;
+  margin: auto;
   width: 100%;
   background-color: black;
 }
