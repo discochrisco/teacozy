@@ -79,20 +79,45 @@ h2, h3, h4 {
   vertical-align: middle;
 }
 
-.featuredtea {
-  width: 1000px;
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
+.item {
+  padding: 5px;
+}
 
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.item span {
+  text-align: center;
+  display: block;
+  padding: 5px;
+  font-weight: bold;
 }
 
 #mission {
   padding-top: 70px;
   height: 700px;
-  background-image: url(/Users/christmas/Documents/Projects/teacozy/resources/images/img-mission-background.jpg);
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
 }
 
 #mission .content {
   margin: auto;
   width: 100%;
   background-color: black;
+}
+
+#shop {
+  width: 1000px;
+  padding-top: 70px;
+  height: 700px;
+  margin: auto;
+
 }
